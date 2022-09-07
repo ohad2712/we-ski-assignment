@@ -4,11 +4,15 @@
     "jsx": "preserve",
     "module": "commonjs",
     "allowJs": true,
-    "outDir": "./dist",
+    "outDir": "./dist/src",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "types": ["node"],
+    "typeRoots": [ "./node_modules/@types" ],
+    "noImplicitAny": false,
+    "resolveJsonModule": true
   },
   "exclude": [
     "client",
